@@ -24,7 +24,7 @@ pdb = getDB()
 
 @app.route("/")
 def hello():
-    ret = {"result":"helloworld"}
+    ret = {"result":"helloworld new"}
     return jsonify(ret)
 
 # @app.route('/setup')
