@@ -27,6 +27,10 @@ def hello():
     ret = {"result":"helloworld new"}
     return jsonify(ret)
 
+@app.route("/home/")
+def index():
+    return render_template('index.html')
+
 # @app.route('/setup')
 # def oneTime():
 #     import os
